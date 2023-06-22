@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(216, 154, 79);
+}
+
+.mainPart {
+  width: 500px;
+  height: 800px;
+  margin: 100px 0 0 500px;
+  border-radius: 10px;
+}
+.mainPart .topPart {
+  width: 500px;
+  height: 300px;
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 10px;
+}
+.mainPart .buttomPart {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+.mainPart .buttomPart div .digits {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+}
+.mainPart .buttomPart div .digits a {
+  text-decoration: none;
+}
+.mainPart .buttomPart div .digits a .minus-pilus p {
+  margin-left: -25px;
+}
+.mainPart .buttomPart div .digits .button:hover {
+  background-color: rgb(80, 78, 78);
+}
+.mainPart .buttomPart div .digits .button {
+  background-color: rgb(27, 27, 27);
+  width: 97px;
+  height: 97px;
+  border-radius: 80px;
+  padding: 10px 0 0 35px;
+}
+.mainPart .buttomPart div .digits .button p {
+  color: white;
+  font-size: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+.mainPart .buttomPart div .digits .button p:hover {
+  transform: scale(0.8);
+}
+.mainPart .buttomPart div .digits .button .green {
+  color: green;
+}
+.mainPart .buttomPart div .digits .button .red {
+  color: rgb(233, 74, 74);
+}/*# sourceMappingURL=style.css.map */
